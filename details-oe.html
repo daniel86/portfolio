@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio Details</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyPortfolio
+  * Template URL: https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
+  * Updated: Aug 08 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid  position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Portfolio</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title light-background">
+      <div class="container">
+        <h1>Portfolio Details</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Portfolio Details</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+      <!-- Left: image slider -->
+      <div class="col-lg-8">
+        <div class="portfolio-details-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": { "delay": 5000 },
+              "slidesPerView": "auto",
+              "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true }
+            }
+          </script>
+
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide">
+              <img src="assets/img/oe/0.png" alt="The openEASE landing page with annotations">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/oe/1.png" alt="The openEASE data-set discovery page">
+            </div>
+            
+            <div class="swiper-slide">
+              <img src="assets/img/oe/2.png" alt="Data recorded by the robots">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/oe/3.png" alt="A part of the openEASE QA page">
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+          <div class="col-lg-4">
+        <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+          <h3>Project information</h3>
+          <ul>
+            <li><strong>Category</strong>: Cloud Robotics</li>
+            <li><strong>Project</strong>:
+            	<a href="https://www.open-ease.org">openEASE</a>,
+            	<a href="https://ease-crc.org">CRC EASE</a>
+            </li>
+            <li><strong>Tech stack</strong>: Flask, Docker, WebGL, Bootstrap, Robot Web Tools, ROS, OWL, Prolog, Python, JS</li>
+            <li><strong>Role</strong>: Full-stack lead (backend, frontend, deployment),
+            	data analysis & visualization</li>
+            <li><strong>Status</strong>: Active research platform</li>
+          </ul>
+        </div>
+      </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Details Section -->
+    
+    <div class="p-4">
+        <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+  <h2>openEASE — Cloud-based Robot Experience Platform</h2>
+
+  <p>
+    <strong>openEASE</strong> is a cloud platform for storing, querying, and visualising robot experiences (NEEMs). 
+    It was developed within the <em>Collaborative Research Center EASE</em>, where researchers across disciplines 
+    contributed data and knowledge, making openEASE the central hub for sharing, analyzing, and reproducing experiments. 
+    By providing a common semantic data format (NEEMs with the SOMA ontology), the platform enables interdisciplinary 
+    integration and collaboration at scale.
+  </p>
+  
+  <p>
+  	<center>
+  	<video width="530" height="300" controls>
+  		<source src="assets/img/oe/openEASEcutshort.mp4" type="video/mp4">
+  	</video>
+  	</center>
+  </p>
+
+  <p>
+    Technically, openEASE combines a <strong>full-stack infrastructure</strong>: 
+    a Flask-based backend, a Bootstrap/JavaScript frontend with WebGL visualisations, 
+    real-time integration with ROS via Robot Web Tools, and a <strong>data science backend</strong> based on Hadoop. 
+    Data versioning is managed with DVC, and GitLab provides collaborative maintenance of datasets. 
+    Together, these components form a reproducible, extensible environment that aligns with the <em>Industry 4.0 vision</em> 
+    of data-driven, connected infrastructures.
+  </p>
+
+  <p>
+    The platform supports a wide range of <strong>use cases</strong>: 
+    it helps researchers <em>reproduce experiments</em>, 
+    demonstrate results to collaborators, 
+    and run comparative analyses across datasets. 
+    Integration with the <strong>KnowRob QA system</strong> allows researchers to query episodic memories directly, 
+    and the <strong>multi-modal UI</strong> I developed provides rich answers: events are visualised as 3D renderings, 
+    timelines are generated for temporal reasoning, and symbolic explanations are displayed alongside sensor data. 
+    This combination dramatically reduces the effort required for knowledge exploration.
+  </p>
+
+  <p>
+    The scope of openEASE extends beyond research: it has been used as <strong>infrastructure for teaching</strong>, 
+    where students can interactively explore robot logs and semantic annotations, and it provides an 
+    <strong>Industry 4.0–style data backbone</strong> for recording, storing, and analysing robotic operations. 
+    Early demonstrations — such as collaborative robots preparing pizza by combining their experiences with recorded human data — 
+    highlight how openEASE can serve as a <em>collective memory for robots</em>, enabling them to answer queries like 
+    <em>what happened, why, and how</em> during a task.
+  </p>
+  
+  <p>
+  	<center>
+  	<video width="530" height="300" controls>
+  		<source src="assets/img/oe/labopening-neems.mp4" type="video/mp4">
+  	</video>
+  	</center>
+  </p>
+
+  <p><strong>Project highlights</strong></p>
+  <ul>
+    <li>Designed the <strong>NEEM knowledge representation</strong> and implemented logic-based query interfaces for reproducible research.</li>
+    <li>Built the full-stack infrastructure: Flask backend, WebGL/Bootstrap frontend, and ROS integration with Robot Web Tools.</li>
+    <li>Integrated a <strong>data science stack</strong> (Hadoop, DVC, GitLab) for dataset versioning, sharing, and large-scale analysis.</li>
+    <li>Developed the <strong>multi-modal UI</strong> that visualises answers as 3D events, timelines, and symbolic reasoning outputs.</li>
+    <li>Enabled cross-disciplinary collaboration within the EASE research center, providing a common platform for dataset exchange.</li>
+    <li>Explored applications in teaching and <strong>Industry 4.0</strong> data infrastructure for robotics and beyond.</li>
+  </ul>
+
+  <p><strong>Role:</strong> Platform architect & full-stack developer — responsible for knowledge representation, backend/frontend implementation, data science integration, and query/visualisation interface design.</p>
+
+          <!--
+          <p><strong>Role:</strong> knowledge modelling lead &amp; visualization developer — responsible for modelling, data integration and demonstrator implementation.</p>
+          -->
+          <!--
+          <p>
+            <a href="https://github.com/daniel86" class="btn btn-primary" target="_blank" rel="noopener">Related repositories</a>
+            <a href="assets/pdf/openease-summary.pdf" class="btn btn-outline-secondary" download>Download summary (PDF)</a>
+          </p>
+          -->
+        </div>
+        </div>
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">MyPortfolio</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

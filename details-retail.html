@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio Details</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyPortfolio
+  * Template URL: https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
+  * Updated: Aug 08 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid  position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Portfolio</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title light-background">
+      <div class="container">
+        <h1>Portfolio Details</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Portfolio Details</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+      <!-- Left: image slider -->
+      <div class="col-lg-8">
+        <div class="portfolio-details-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": { "delay": 5000 },
+              "slidesPerView": "auto",
+              "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true }
+            }
+          </script>
+
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide">
+              <img src="assets/img/retail/0.png" alt="Digital twins of retail stores and their applications">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/retail/1.png" alt="Semantic mapping and data transformation">
+            </div>
+            
+            <div class="swiper-slide">
+              <img src="assets/img/retail/2.jpg" alt="KUKA robot in IAI's retail lab performing mapping">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/retail/3.jpg" alt="Donbot (custom made) in IAI's retail lab performing mapping">
+            </div>
+            
+            <div class="swiper-slide">
+              <img src="assets/img/retail/4.png" alt="Digital twin rendering in game engine">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/retail/5.png" alt="Digital twin rendering ROS visualizer">
+            </div>
+            
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+          <div class="col-lg-4">
+		<div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+          <h3>Project information</h3>
+          <ul>
+            <li><strong>Category</strong>: Industry 4.0, Data Analysis & Rendering, VR</li>
+            <li><strong>Project</strong>:
+            		<a href="https://cordis.europa.eu/project/id/731590/results">REFILLS</a>,
+            		K4R
+            </li>
+            <li><strong>Tools &amp; tech</strong>:
+            	ROS, RViz, WebGL,
+            	Unreal Engine,
+            	OpenEASE, KnowRob, OWL, C++/Python/JS</li>
+            <li><strong>Collaborators</strong>:
+            	IAI Bremen,
+            	DFKI,
+            	TUM,
+            	Kuka,
+            	DM,
+            	Intel,
+            	Swisslog,
+            	Allgeier,
+            	EHI,
+            	fortiss,
+            	Neusta,
+            	Ubimax,
+            	Ubica Robotics</li>
+            <li><strong>Activities</strong>:
+            	Demos at CEBIT &amp; Hannover Messe,
+            	helped starting <a href="https://www.ubica-robotics.eu/">Ubica Robotics</a>,
+            	published <a href="https://link.springer.com/chapter/10.1007/978-3-031-06078-6_2">book chapter</a></li>
+          </ul>
+        </div>
+      </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Details Section -->
+    
+    <div class="p-4">
+        <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+          <h2>Digital Twins & Knowledge-based Robotics for Retail</h2>
+
+<p>
+  In the REFILLS project and related research, we explored how <em>digital twins</em> and knowledge-based AI can transform retail robotics and store operations. 
+  I developed a rich <strong>semantic digital twin</strong> of supermarkets: a knowledge graph and ontology that formally models store layouts, shelves, products, and their relations. 
+  This model enabled autonomous robots to perform <em>semantic mapping</em> — scanning a store and automatically building a digital twin that can support navigation, perception, and decision-making.
+</p>
+  
+  <p>
+  	<center>
+  	<video width="530" height="300" controls>
+  		<source src="assets/img/retail/video.mp4" type="video/mp4">
+  	</video>
+  	</center>
+  </p>
+          
+
+<p>
+  Beyond mapping, we demonstrated a wide range of <strong>Industry 4.0 applications</strong>. 
+  Using Unreal Engine, we built immersive VR experiences where managers could explore new or remote stores virtually without travel. 
+  For customers, we developed mobile applications where product knowledge was linked to the semantic layer, offering enhanced shopping assistance and personalized product information. 
+  In all cases, the semantic twin was the backbone that allowed agents (human or robotic) to reason and make informed decisions.
+</p>
+
+<p>
+  A key aspect of the work was <strong>integration with existing enterprise systems</strong>. 
+  We augmented ERP data streams (SAP) with the semantic knowledge graph, enriching operational information with context for tasks such as shelf restocking, product placement optimization, and logistics planning. 
+  These integrations aligned the research with the <em>Industry 4.0 vision of connected, intelligent production and retail environments</em>.
+</p>
+
+<p>
+  To foster adoption, I implemented interactive <strong>WebGL visualizations</strong> integrated with live robot telemetry via Robot Web Tools. 
+  These demonstrators — shown at major industrial fairs such as CEBIT and Hannover Messe — helped bridge the gap between research and practice. 
+  This transfer ultimately contributed to the founding of <strong>Ubica Robotics</strong>, a spin-off now operating commercial robot fleets and awarded the <em>euRobotics Technology Transfer Award 2022</em>.
+</p>
+
+<p><strong>Project highlights</strong></p>
+<ul>
+  <li>Designed and implemented a <strong>semantic digital twin architecture</strong> with ontologies and knowledge graphs for retail stores.</li>
+  <li>Developed autonomous <em>semantic mapping</em> algorithms for robots to generate digital twins of real supermarkets.</li>
+  <li>Built <strong>VR-based store exploration</strong> prototypes in Unreal Engine and mobile <strong>shopping assistant apps</strong> using the semantic knowledge base.</li>
+  <li>Integrated ERP data (SAP) with semantic layers to enable decision support for replenishment, placement, and logistics.</li>
+  <li>Implemented WebGL-based visualizations with ROS integration for interactive demos at CEBIT & Hannover Messe.</li>
+  <li>Facilitated industry transfer activities, contributing to the foundation and success of <strong>Ubica Robotics</strong>.</li>
+</ul>
+
+<p><strong>Role:</strong> Semantic modeling lead & visualization developer — responsible for ontology design, ERP integration, and VR/visualization development.</p>
+
+          <!--
+          <p>
+            <a href="https://github.com/daniel86" class="btn btn-primary" target="_blank" rel="noopener">Related code &amp; demos</a>
+            <a href="assets/pdf/retail-demos.pdf" class="btn btn-outline-secondary" download>Download demo summary (PDF)</a>
+          </p>
+          -->
+        </div>
+        </div>
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">MyPortfolio</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
