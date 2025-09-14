@@ -37,7 +37,22 @@
 </head>
 
 <body class="portfolio-details-page">
-
+  <style>
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* optional, prevents it from growing too large on desktop */
+  margin: 0 auto; /* centers on larger screens */
+  aspect-ratio: 16 / 11; /* keeps correct aspect ratio */
+}
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+  </style>
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid  position-relative d-flex align-items-center justify-content-between">
 
@@ -146,13 +161,11 @@
       atmosphere while remaining performant for real-time applications.
     </p>
 
-    <p>
-      <center>
-        <video width="460" height="300" controls>
-          <source src="assets/img/regen/weather/thunder-bolts.mp4" type="video/mp4">
-        </video>
-      </center>
-    </p>
+	<p>
+		<div class="video-container"><video controls>
+			<source src="assets/img/regen/weather/thunder-bolts.mp4" type="video/mp4">
+		</video></div>
+	</p>
 
     <p>
       The featured demo shows an electrifying scene: a ring of procedural lightning bolts connects

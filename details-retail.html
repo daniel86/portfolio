@@ -60,7 +60,22 @@
   </header>
 
   <main class="main">
-
+  <style>
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* optional, prevents it from growing too large on desktop */
+  margin: 0 auto; /* centers on larger screens */
+  aspect-ratio: 16 / 11; /* keeps correct aspect ratio */
+}
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+  </style>
     <!-- Page Title -->
     <div class="page-title light-background">
       <div class="container">
@@ -176,13 +191,11 @@
   This model enabled autonomous robots to perform <em>semantic mapping</em> — scanning a store and automatically building a digital twin that can support navigation, perception, and decision-making.
 </p>
   
-  <p>
-  	<center>
-  	<video width="530" height="300" controls>
-  		<source src="assets/img/retail/video.mp4" type="video/mp4">
-  	</video>
-  	</center>
-  </p>
+	<p>
+		<div class="video-container"><video controls muted>
+			<source src="assets/img/retail/video.mp4" type="video/mp4">
+		</video></div>
+	</p>
           
 
 <p>

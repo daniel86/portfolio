@@ -60,7 +60,22 @@
   </header>
 
   <main class="main">
-
+  <style>
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* optional, prevents it from growing too large on desktop */
+  margin: 0 auto; /* centers on larger screens */
+  aspect-ratio: 16 / 11; /* keeps correct aspect ratio */
+}
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+  </style>
     <!-- Page Title -->
     <div class="page-title light-background">
       <div class="container">
@@ -142,13 +157,11 @@
           with modeled actions in real-time, enabling structured datasets for robotics and activity understanding.
         </p>
         
-  <p>
-  	<center>
-  	<video width="400" height="300" controls>
-  		<source src="assets/img/human/video2.mp4" type="video/mp4">
-  	</video>
-  	</center>
-  </p>
+	<p>
+		<div class="video-container"><video controls>
+			<source src="assets/img/human/video2.mp4" type="video/mp4">
+		</video></div>
+	</p>
         
         <p>
           The recorded sessions were also used to generate <strong>synthetic datasets</strong>, later stored and made available
@@ -156,13 +169,11 @@
           symbolic reasoning systems in robotics.
         </p>
         
-  <p>
-  	<center>
-  	<video width="530" height="300" controls>
-  		<source src="assets/img/human/video1.mp4" type="video/mp4">
-  	</video>
-  	</center>
-  </p>
+	<p>
+		<div class="video-container"><video controls>
+			<source src="assets/img/human/video1.mp4" type="video/mp4">
+		</video></div>
+	</p>
           
         <p><strong>Project highlights</strong></p>
         <ul>
